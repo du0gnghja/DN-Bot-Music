@@ -26,9 +26,15 @@
   },
   "nodes": [
     {
-      "name": "Groove",
-      "url": "lavalinkv4.serenetia.com:443",
-      "auth": "https://seretia.link/discord",
+      "name": "Lavalink v4 Public (SSL)",
+      "url": "lavalink.v4.lavalink.pw:443",
+      "auth": "youshallnotpass",
+      "secure": true
+    },
+    {
+      "name": "AjieDev Lavalink v4",
+      "url": "lavalink.ajiedev.biz.id:443",
+      "auth": "ajiedev.biz.id",
       "secure": true
     }
   ],
@@ -37,8 +43,8 @@
     "resume": true,
     "resumeTimeout": 60,
     "resumeByLibrary": true,
-    "reconnectTries": 15,
-    "reconnectInterval": 10,
+    "reconnectTries": 30,
+    "reconnectInterval": 5,
     "restTimeout": 60000,
     "voiceConnectionTimeout": 30000,
     "userAgent": "Groove"
